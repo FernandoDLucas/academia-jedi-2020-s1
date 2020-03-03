@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'academia-jedi2020-s1'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('academia-jedi2020-s1');
+    expect(app.titulo).toEqual('academia-jedi2020-s1');
   });
 
   it('should render title', () => {
